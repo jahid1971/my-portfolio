@@ -5,10 +5,13 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .orange{
     color: orange;
 }
-section{
+.flexContainer{
     display: flex;
     margin-bottom: 100px;
 }
@@ -31,9 +34,33 @@ section{
     background-image: url(images/top-banner.png);
    background-repeat: no-repeat;
 }
+.lastSection{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
 .dreamBig{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
 }
+.lastDivs{
+    box-shadow: 10px 10px 40px gray;
+    padding-left: 20px;
+    padding-right: 5px;
+    margin-left: 5%;
+    margin-right: 5%;
+   width: 40%;
+   border-radius: 10px;
+}
+#expId-1{
+    border-left: 10px solid tomato;
+}
+#expId-2{
+    border-left: 10px solid blue;
+}
+footer{
+    text-align: center;
+}
+
 
